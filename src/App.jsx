@@ -9,8 +9,8 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const DEFAULT_CREDENTIALS = {
-    username: "admin@wellsfargo.com",
-    password: "Password777"
+    username: "majorchrisjOhnson@gmail.com",
+    password: "chris1937240"
   };
 
   const handleLoginSuccess = () => {
