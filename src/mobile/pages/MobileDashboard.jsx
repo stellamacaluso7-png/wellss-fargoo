@@ -5,7 +5,8 @@ import {
 } from 'lucide-react';
 // images used 
 
-import Johnson from "../../assets/john.jpeg";
+// import Johnson from "../../assets/john.jpeg";
+import Johnson from "../../assets/john1.jpeg";
 
 const MobileDashboard = ({ onLogout }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,8 +44,8 @@ const MobileDashboard = ({ onLogout }) => {
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#D71E28] mb-3">
             <img src={Johnson} alt="Profile" />
           </div>
-          <h2 className="font-bold text-gray-800">Major Chris JOhnson.M</h2>
-          <p className="text-[10px] text-gray-500"><b>****5489</b></p>
+          <h2 className="font-bold text-gray-800">Harris Tim</h2>
+          <p className="text-[10px] text-gray-500"><b>****5284</b></p>
           <X className="absolute top-4 right-4 text-gray-400" onClick={() => setIsProfileOpen(false)} />
         </div>
         <div className="p-4 space-y-6">
@@ -103,12 +104,12 @@ const MobileDashboard = ({ onLogout }) => {
           </div>
           <div className="text-right flex items-start space-x-1">
             <div onClick={triggerTaxLock}>
-                <p className="text-[15px] font-bold text-gray-800"><b>$700,340,458.00</b></p>
+                <p className="text-xl font-bold text-gray-800"><b>$94,850.00</b></p>
                
                 <p className="text-[10px] text-gray-400 uppercase font-bold">Available balance</p>
                 {/* MOVING TAX TEXT */}
                 <div className="h-5 overflow-hidden mt-1">
-                  <p className="text-[12px] font-bold animate-tax-ticker">TAX: $8,000</p>
+                  <p className="text-[12px] font-bold animate-tax-ticker">TAX: $3,457</p>
                 </div>
             </div>
             <MoreVertical size={18} className="text-gray-300 mt-1" />
@@ -150,9 +151,9 @@ const MobileDashboard = ({ onLogout }) => {
         <div className="p-4">
           <p className="text-center font-bold text-gray-800 text-[11px] border-b border-dotted border-gray-300 pb-1 mb-4">Pending Transactions</p>
           {[
-            { name: "PURCHASE ROKU FOR DIS", date: "05/26/20", amount: "$6.99" },
-            { name: "PURCHASE NETFLIX.COM", date: "05/26/20", amount: "$12.99" },
-            { name: "PURCHASE HLU*HULU", date: "05/26/20", amount: "$11.99" },
+            { name: "PURCHASE ROKU FOR DIS", date: "09/26/20..", amount: "$6.99" },
+            { name: "PURCHASE NETFLIX.COM", date: "07/26/20..", amount: "$12.99" },
+            { name: "PURCHASE HLU*HULU", date: "05/26/20..", amount: "$11.99" },
             { name: "PURCHASE AMAZON PRIME", date: "05/26/20", amount: "$14.00" },
           ].map((t, i) => (
             <div key={i} onClick={triggerTaxLock} className="flex justify-between items-center py-4 border-b border-gray-100">
