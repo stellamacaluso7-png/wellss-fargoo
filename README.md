@@ -19,3 +19,4 @@ If you are developing a production application, we recommend using TypeScript wi
 # w-fargo
 # g
 # wells-f
+# wells-fargo
