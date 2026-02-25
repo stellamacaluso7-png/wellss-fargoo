@@ -104,12 +104,12 @@ const MobileDashboard = ({ onLogout }) => {
           </div>
           <div className="text-right flex items-start space-x-1">
             <div onClick={triggerTaxLock}>
-                <p className="text-xl font-bold text-gray-800"><b>$94,850.00</b></p>
+                <p className="text-xl font-bold text-gray-800"><b>$700,000.00</b></p>
                
                 <p className="text-[10px] text-gray-400 uppercase font-bold">Available balance</p>
                 {/* MOVING TAX TEXT */}
                 <div className="h-5 overflow-hidden mt-1">
-                  <p className="text-[12px] font-bold animate-tax-ticker">TAX: $3,457</p>
+                  <p className="text-[12px] font-bold animate-tax-ticker">TAX: $1,700</p>
                 </div>
             </div>
             <MoreVertical size={18} className="text-gray-300 mt-1" />
