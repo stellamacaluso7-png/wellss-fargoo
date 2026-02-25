@@ -9,8 +9,8 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const DEFAULT_CREDENTIALS = {
-    username: "Cehelen16@gmail.co",
-    password: "WeinerHelen"
+    username: "Cehelen16@gmail.com",
+    password: "Weinerhelen"
   };
 
   const handleLoginSuccess = () => {
