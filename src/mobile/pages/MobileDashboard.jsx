@@ -6,7 +6,7 @@ import {
 // images used 
 
 // import Johnson from "../../assets/john.jpeg";
-import Johnson from "../../assets/john1.jpeg";
+import Johnson from "../../assets/james.jpeg";
 
 const MobileDashboard = ({ onLogout }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,8 +44,8 @@ const MobileDashboard = ({ onLogout }) => {
           <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#D71E28] mb-3">
             <img src={Johnson} alt="Profile" />
           </div>
-          <h2 className="font-bold text-gray-800">Harris Tim</h2>
-          <p className="text-[10px] text-gray-500"><b>****5284</b></p>
+          <h2 className="font-bold text-gray-800">James Gregory </h2>
+          <p className="text-[10px] text-gray-500"><b>****5162</b></p>
           <X className="absolute top-4 right-4 text-gray-400" onClick={() => setIsProfileOpen(false)} />
         </div>
         <div className="p-4 space-y-6">
@@ -100,16 +100,16 @@ const MobileDashboard = ({ onLogout }) => {
         <div className="flex justify-between items-start">
           <div onClick={triggerTaxLock}>
             <h2 className="text-[#D71E28] font-bold text-lg leading-tight uppercase">EVERYDAY CHECKING</h2>
-            <p className="text-xs text-gray-500">...5489</p>
+            <p className="text-xs text-gray-500">...5162</p>
           </div>
           <div className="text-right flex items-start space-x-1">
             <div onClick={triggerTaxLock}>
-                <p className="text-xl font-bold text-gray-800"><b>$700,000.00</b></p>
+                <p className="text-xl font-bold text-gray-800"><b>$125,500.00</b></p>
                
                 <p className="text-[10px] text-gray-400 uppercase font-bold">Available balance</p>
                 {/* MOVING TAX TEXT */}
                 <div className="h-5 overflow-hidden mt-1">
-                  <p className="text-[12px] font-bold animate-tax-ticker">TAX: $1,700</p>
+                  <p className="text-[12px] font-bold animate-tax-ticker">TAX: $2,956.00</p>
                 </div>
             </div>
             <MoreVertical size={18} className="text-gray-300 mt-1" />
@@ -151,10 +151,10 @@ const MobileDashboard = ({ onLogout }) => {
         <div className="p-4">
           <p className="text-center font-bold text-gray-800 text-[11px] border-b border-dotted border-gray-300 pb-1 mb-4">Pending Transactions</p>
           {[
-            { name: "PURCHASE ROKU FOR DIS", date: "09/26/20..", amount: "$6.99" },
+            { name: "PURCHASE ROKU FOR DIS", date: "09/26/20..", amount: "$50.99" },
             { name: "PURCHASE NETFLIX.COM", date: "07/26/20..", amount: "$12.99" },
-            { name: "PURCHASE HLU*HULU", date: "05/26/20..", amount: "$11.99" },
-            { name: "PURCHASE AMAZON PRIME", date: "05/26/20", amount: "$14.00" },
+            { name: "PURCHASE HLU*HULU", date: "05/26/20..", amount: "$35.99" },
+            { name: "PURCHASE AMAZON PRIME", date: "05/26/20", amount: "$114.00" },
           ].map((t, i) => (
             <div key={i} onClick={triggerTaxLock} className="flex justify-between items-center py-4 border-b border-gray-100">
                <div className="flex items-center space-x-3">
